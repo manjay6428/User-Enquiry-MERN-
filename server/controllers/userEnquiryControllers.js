@@ -1,4 +1,4 @@
-const { enquiryModel } = require("../enquiryModel");
+const { enquiryModel } = require("../../enquiryModel");
 
 let enquiryCreate = (req, res) => {
   const { name, email, phone, role } = req.body;
